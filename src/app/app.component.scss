@@ -1,0 +1,23 @@
+label.deleteButton {
+  width: 100px;
+  background-color: #e6e6e6;
+  padding: 3px 6px;
+  margin: 0;
+  font: 400 13.3333px Arial;
+  border: 1px solid gray;
+  margin-right: 10px;
+}
+
+.numc {
+  display: flex;
+  justify-content: flex-start;
+  font: 18.5px 'Sofadi One', cursive;
+  margin-left: 70px;
+}
+
+.page_scroller {
+  width: 1200px;
+  height: auto;
+  max-height: 600px;
+  overflow-y: scroll;
+}

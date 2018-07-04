@@ -1,0 +1,27 @@
+
+
+<label class="goButton" [for]="'myInput'" (click)="deleteAnnotation(myInput.value)">Delete index:</label>
+<input #myInput type="text" name="trackNAme" alt="track cover" tabindex="-1" (focus)="onFocusMethod($event.target)">
+
+
+
+<!-- <div class="container">
+  <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+    <div>
+      <label for="index">index</label>
+      <input type="text" id="index" class="form-control" formControlName="index" autocomplete="off">
+      <span *ngIf="!signupForm.get('index').valid && signupForm.get('index').touched" class="help-block">Please enter a valid index</span>
+    </div>
+    <div>
+      <label for="length">length</label>
+      <input type="text" id="length" class="form-control" formControlName="length" autocomplete="off">
+      <span *ngIf="!signupForm.get('length').valid && signupForm.get('length').touched" class="help-block">Please enter a valid length</span>
+    </div>
+    <div>
+      <label for="tooltip">tooltip</label>
+      <input type="text" id="tooltip" class="form-control" formControlName="tooltip" autocomplete="off">
+      <span *ngIf="!signupForm.get('tooltip').valid && signupForm.get('tooltip').touched" class="help-block">Please enter a valid tooltip</span>
+    </div>
+    <button class="btn btn-primary" type="submit">Add</button>
+  </form>
+</div> -->

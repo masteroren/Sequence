@@ -1,0 +1,20 @@
+<div class="sequences">
+  <span> {{sequence.index}}</span>
+  <svg #mySvg tooltipPlacement="top" class="mySvg" viewport-fill="black" width="900" height="40px" xmlns="http://www.w3.org/2000/svg">
+    <style>
+      rect {
+        display: none;
+      }
+    </style>
+
+    <rect [ngClass]="{'showRect' : firstRectFLag}" #firstRect x="0" y="0" height="100%" opacity="0.3" fill="blue"></rect>
+    <rect [ngClass]="{'showRectSec' : secondRectFLag}" #secondRect x="0" y="0" height="100%" opacity="0.3" fill="blue"></rect>
+    <rect [ngClass]="{'showRectThird' : thirdRectFLag}" #thirddRect x="0" y="45" height="100%" opacity="0.3" fill="blue"></rect>
+
+
+
+    <text #textEl x="20" y="20" text-buffer="sequence" textLength="50" font-weight="bold" text-overflow="auto">
+      {{sequence.arr}}
+    </text>
+  </svg>
+</div>

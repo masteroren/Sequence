@@ -1,0 +1,21 @@
+.sequences {
+    display: flex;
+    justify-content: flex-start;
+    font: 18px 'Sofadi One', cursive;
+    span {
+        color: #b8b8b8;
+        width: 50px;
+        text-align: center;
+    }
+    .mySvg {
+        overflow: visible;
+        .showRect,
+        .showRectSec,
+        .showRectThird {
+            display: block;
+        }
+        .hideRect {
+            display: none;
+        }
+    }
+}
